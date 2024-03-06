@@ -17,7 +17,7 @@ head(mydf)
 
 rm(mydf)
 
-mydf = data.frame(country= Countries_2012_Dataset,code=Codes_2012_Dataset,refion=Regions_2012_Dataset)
+mydf = data.frame(country= Countries_2012_Dataset,code=Codes_2012_Dataset,region=Regions_2012_Dataset)
 head(mydf)
 tail(mydf)
 summary(mydf)
